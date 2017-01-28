@@ -10,7 +10,7 @@ namespace Employee
     {
         static void Main(string[] args)
         {
-            Employee emp = new Employee("Ahmed");
+            Employee emp = new Employee("Ahmed Samir");
             Department dep = new Department("Gaming");
             Club club = new Club();
             dep.AddEmployee(emp);
